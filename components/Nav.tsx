@@ -6,7 +6,7 @@ export function Nav() {
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center">
           <img
-            src="/woofylogo.png"
+            src="/woofylogonew.png"
             alt={business.name}
             className="h-12 w-auto"
           />

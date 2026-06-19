@@ -6,9 +6,9 @@ const config: Config = {
     extend: {
       colors: {
         ink: "#2b211c",
-        paper: "#ffffff",
+        paper: "#f9f6ea",
         background: "#f9f6ea",
-        muted: "#f7efe9",
+        muted: "#f9f6ea",
         accent: "#c2603f",
       },
       fontFamily: {

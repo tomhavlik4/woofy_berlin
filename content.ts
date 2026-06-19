@@ -64,7 +64,7 @@ export const gallery = {
   heading: "Out and about with Woofy",
   intro: "A few of our regulars enjoying their walks and daycare days.",
   heroImage: {
-    src: "https://placedog.net/900/1000?id=7",
+    src: "/maindoggo.png",
     alt: "A happy dog out on a walk with a Woofy Berlin walker",
   },
   photos: [

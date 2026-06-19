@@ -11,7 +11,7 @@ export function FAQ() {
           {faq.items.map((item, i) => (
             <div
               key={i}
-              className="p-6 rounded-2xl bg-paper border border-ink/10"
+              className="p-6 rounded-2xl bg-white border border-ink/10"
             >
               <dt className="font-semibold text-lg">{item.q}</dt>
               <dd className="mt-2 text-ink/70 leading-relaxed">{item.a}</dd>
