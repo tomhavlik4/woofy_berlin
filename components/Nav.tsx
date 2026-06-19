@@ -4,8 +4,12 @@ export function Nav() {
   return (
     <header className="border-b border-ink/10 bg-paper/80 backdrop-blur sticky top-0 z-10">
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#top" className="font-semibold text-lg tracking-tight">
-          {business.shortName}
+        <a href="#top" className="flex items-center">
+          <img
+            src="/woofylogo.png"
+            alt={business.name}
+            className="h-12 w-auto"
+          />
         </a>
         <nav className="hidden md:flex items-center gap-7 text-sm">
           {nav.links.map((l, i) => (

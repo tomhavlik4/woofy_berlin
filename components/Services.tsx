@@ -13,7 +13,7 @@ export function Services() {
               className="p-6 rounded-2xl bg-paper border border-ink/10 hover:border-ink/30 transition"
             >
               <div
-                className="flex items-center justify-center w-12 h-12 rounded-full bg-accent/10 text-2xl"
+                className="flex items-center justify-center w-12 h-12 rounded-full bg-accent/10 text-2xl mx-auto"
                 aria-hidden="true"
               >
                 {s.icon}

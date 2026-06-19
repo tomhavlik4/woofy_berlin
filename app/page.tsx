@@ -24,6 +24,11 @@ export default function Home() {
         <Contact />
       </main>
       <footer className="bg-muted border-t border-ink/10 px-6 py-10 text-center text-sm text-ink/60">
+        <img
+          src="/woofylogo.png"
+          alt={business.name}
+          className="h-16 w-auto mx-auto mb-4"
+        />
         © {new Date().getFullYear()} {business.name} · Made with Claude Code in Berlin
       </footer>
     </>

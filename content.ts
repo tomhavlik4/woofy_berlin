@@ -68,12 +68,12 @@ export const gallery = {
     alt: "A happy dog out on a walk with a Woofy Berlin walker",
   },
   photos: [
-    { src: "https://placedog.net/600/600?id=12", alt: "Dog playing in a Berlin park" },
-    { src: "https://placedog.net/600/600?id=23", alt: "Dog walker with a small group of dogs" },
-    { src: "https://placedog.net/600/600?id=31", alt: "Dog resting at daycare" },
-    { src: "https://placedog.net/600/600?id=44", alt: "Dog mid-walk on a city street" },
-    { src: "https://placedog.net/600/600?id=58", alt: "Two dogs greeting each other" },
-    { src: "https://placedog.net/600/600?id=65", alt: "Dog looking up at its walker" },
+    { src: "/doggo1.png", alt: "A Woofy Berlin dog out on a walk" },
+    { src: "/doggo2.png", alt: "A Woofy Berlin dog out on a walk" },
+    { src: "/doggo3.png", alt: "A Woofy Berlin dog out on a walk" },
+    { src: "/doggo4.png", alt: "A Woofy Berlin dog out on a walk" },
+    { src: "/doggo5.png", alt: "A Woofy Berlin dog out on a walk" },
+    { src: "/doggo6.png", alt: "A Woofy Berlin dog out on a walk" },
   ],
 };
 
@@ -175,7 +175,7 @@ export const faq = {
   items: [
     {
       q: "Which parts of Berlin do you cover?",
-      a: "We currently serve Prenzlauer Berg, Friedrichshain, Mitte, and Kreuzberg. If you're nearby, get in touch, because we're expanding and may be able to help.",
+      a: "We currently serve Prenzlauer Berg, Mitte, Kreuzberg, and Charlottenburg. If you're nearby, get in touch, because we're expanding and may be able to help.",
     },
     {
       q: "Is my dog too young or too old to join?",
