@@ -1,28 +1,8 @@
-# Landing page template
+# woofy_berlin
 
-A polished small-business landing page. Built with Next.js + Tailwind.
+Dog sitting app localised for Berlin. Connecting pet owners with dog lovers.
 
-## Architecture
-
-Content and layout are kept separate. Most edits happen in one file: `content.ts`.
-
-```
-content.ts              ← all editable text lives here
-components/             ← one file per page section
-  Nav.tsx
-  Hero.tsx
-  Services.tsx
-  HowItWorks.tsx
-  Benefits.tsx
-  Testimonials.tsx
-  FAQ.tsx
-  Contact.tsx
-app/
-  page.tsx              ← composes the sections in order
-  layout.tsx            ← HTML wrapper, page title from content.ts
-  globals.css           ← base styles
-tailwind.config.ts      ← colors and fonts
-```
+A small-business landing page for **Woofy Berlin** — dog walking & daycare across Berlin. Built with Next.js + Tailwind CSS.
 
 ## Run locally
 
@@ -31,24 +11,11 @@ npm install
 npm run dev
 ```
 
-Then open http://localhost:3000 (or click the auto-forwarded port in Codespaces).
+Then open http://localhost:3000.
 
-## What to ask Claude
+## Editing the page
 
-Common edits — Claude will edit `content.ts`:
-
-- *"Change the business name to 'Schiller Architects'."*
-- *"Replace the three services with: residential design, commercial, restoration."*
-- *"Add a fifth FAQ about international clients."*
-- *"Remove the How it works section."*
-- *"Update the address to Charlottenburg."*
-
-Layout / design tweaks — Claude will edit `components/` or `tailwind.config.ts`:
-
-- *"Make the hero darker with white text."*
-- *"Switch the accent color to a deep forest green."*
-- *"Show services as a vertical list instead of a grid."*
-- *"Use a serif font for all headings."*
+Almost all text lives in one file: **`content.ts`** (business name, hero, services, gallery, FAQ, contact). Edit there first. Colors and fonts are in `tailwind.config.ts`; each page section is a component in `components/`.
 
 ## Deploy to Vercel
 
@@ -57,4 +24,4 @@ vercel login
 vercel --prod
 ```
 
-Follow the prompts — accept the defaults. You'll get a URL like `your-business.vercel.app`.
+Accept the defaults and you'll get a live URL.
