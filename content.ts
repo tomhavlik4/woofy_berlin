@@ -1,7 +1,7 @@
 // ────────────────────────────────────────────────────────────────
 // EDIT THIS FILE TO PERSONALIZE YOUR LANDING PAGE
 // Almost every text change you'll want to make lives here.
-// You don't need to touch the components — they read from this file.
+// You don't need to touch the components. They read from this file.
 // ────────────────────────────────────────────────────────────────
 
 export const business = {
@@ -25,7 +25,7 @@ export const hero = {
   eyebrow: "Berlin · dog walking & daycare",
   heading: "Your dog's best day, every day.",
   subheading:
-    "We walk, play with, and look after Berlin's dogs while you're at work. Small groups, vetted walkers, and a photo update after every visit — so you always know your dog is in good hands.",
+    "We walk, play with, and look after Berlin's dogs while you're at work. Small groups, vetted walkers, and a photo update after every visit, so you always know your dog is in good hands.",
   ctaPrimary: { label: "Book a walk", href: "#contact" },
   ctaSecondary: { label: "See our services", href: "#services" },
 };
@@ -57,7 +57,7 @@ export const services = {
 };
 
 // Photos shown in the Hero and the Gallery section.
-// These are placeholder dog photos — replace the `src` values with your own
+// These are placeholder dog photos. Replace the `src` values with your own
 // Woofy Berlin pictures when you have them (e.g. put files in `public/` and
 // use "/my-photo.jpg", or paste an image URL).
 export const gallery = {
@@ -88,7 +88,7 @@ export const howItWorks = {
     {
       title: "We meet first",
       summary:
-        "Every new dog gets a free meet-and-greet so we can say hello, get your keys sorted, and make sure it's a good fit — no pressure either way.",
+        "Every new dog gets a free meet-and-greet so we can say hello, get your keys sorted, and make sure it's a good fit, with no pressure either way.",
     },
     {
       title: "We walk, you relax",
@@ -116,6 +116,11 @@ export const benefits = {
       summary:
         "You'll get a picture and a short update after each walk or daycare day. You always know exactly how your dog's day went.",
     },
+    {
+      title: "Eco-friendly toys & snacks",
+      summary:
+        "Every doggo gets eco-friendly toys to play with and natural, sustainably-sourced snacks on the walk, which is better for your dog and kinder to the planet.",
+    },
   ],
 };
 
@@ -127,12 +132,40 @@ export const testimonials = {
         "Our spaniel Otto comes home happily exhausted every single time. The daily photos are the highlight of my workday, and I never worry about him anymore.",
       author: "Mara Lindqvist",
       role: "Otto's human, Prenzlauer Berg",
+      image: {
+        src: "https://randomuser.me/api/portraits/women/68.jpg",
+        alt: "Portrait of Mara Lindqvist",
+      },
     },
     {
       text:
         "We were nervous about leaving our rescue with anyone, but Woofy took it slow and earned her trust. She now pulls toward the door when she sees her walker arrive.",
       author: "Jonas Weber",
       role: "Frida's human, Friedrichshain",
+      image: {
+        src: "https://randomuser.me/api/portraits/men/32.jpg",
+        alt: "Portrait of Jonas Weber",
+      },
+    },
+    {
+      text:
+        "I work long shifts and used to feel guilty leaving Bruno home alone. Now he gets a proper hour outside with his friends, and the walker brings him home dried off when it rains. Total peace of mind.",
+      author: "Greta Hoffmann",
+      role: "Bruno's human, Charlottenburg",
+      image: {
+        src: "https://randomuser.me/api/portraits/women/44.jpg",
+        alt: "Portrait of Greta Hoffmann",
+      },
+    },
+    {
+      text:
+        "Mochi is a nervous little guy, but the same walker comes every time and he's really blossomed. The eco-friendly treats are a lovely touch, and Mochi is completely obsessed with them.",
+      author: "Lukas Vogel",
+      role: "Mochi's human, Neukölln",
+      image: {
+        src: "https://randomuser.me/api/portraits/men/52.jpg",
+        alt: "Portrait of Lukas Vogel",
+      },
     },
   ],
 };
@@ -142,11 +175,11 @@ export const faq = {
   items: [
     {
       q: "Which parts of Berlin do you cover?",
-      a: "We currently serve Prenzlauer Berg, Friedrichshain, Mitte, and Kreuzberg. If you're nearby, get in touch — we're expanding and may be able to help.",
+      a: "We currently serve Prenzlauer Berg, Friedrichshain, Mitte, and Kreuzberg. If you're nearby, get in touch, because we're expanding and may be able to help.",
     },
     {
       q: "Is my dog too young or too old to join?",
-      a: "Not at all. Puppies and senior dogs are welcome — we'll usually suggest solo walks or home visits for them so the pace suits their needs.",
+      a: "Not at all. Puppies and senior dogs are welcome, and we'll usually suggest solo walks or home visits for them so the pace suits their needs.",
     },
     {
       q: "What happens if it rains?",
@@ -154,7 +187,7 @@ export const faq = {
     },
     {
       q: "Do you offer regular weekly slots?",
-      a: "Yes — most of our clients book a fixed weekly schedule so they have the same walker and time each week. One-off and last-minute walks are available too, subject to space.",
+      a: "Yes. Most of our clients book a fixed weekly schedule so they have the same walker and time each week. One-off and last-minute walks are available too, subject to space.",
     },
   ],
 };
@@ -162,15 +195,16 @@ export const faq = {
 export const contact = {
   heading: "Get in touch",
   body:
-    "Ready to book, or just have a question about your dog? Send us a message and we'll get back to you within one business day — and we'll set up a free meet-and-greet.",
-  email: "hello@woofyberlin.example",
-  phone: "+49 30 0000 0000",
-  hours: "Mon–Fri · 07:00 — 19:00 CET",
-  address: "Berlin (Prenzlauer Berg · Friedrichshain · Mitte · Kreuzberg)",
+    "Ready to book, or just have a question about your dog? Send us a message and we'll get back to you within one business day, and we'll set up a free meet-and-greet.",
+  email: "walkme@woofy.com",
+  whatsapp: "+420 776 884 942",
+  whatsappUrl: "https://wa.me/420776884942",
+  hours: "Mon–Fri · 07:00 to 19:00 CET",
+  address: "Adenauer Platz, Berlin-Charlottenburg",
 };
 
 export const meta = {
-  title: "Woofy Berlin — Dog walking & daycare in Berlin",
+  title: "Woofy Berlin: Dog walking & daycare in Berlin",
   description:
     "Small-group dog walks, doggy daycare, and home visits across Berlin. Vetted walkers, a photo after every visit.",
 };

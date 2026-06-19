@@ -16,9 +16,16 @@ export function Testimonials() {
               <blockquote className="text-lg text-ink/85 leading-relaxed">
                 &ldquo;{q.text}&rdquo;
               </blockquote>
-              <figcaption className="mt-4 text-sm">
-                <span className="font-medium">{q.author}</span>
-                <span className="text-ink/60"> · {q.role}</span>
+              <figcaption className="mt-4 flex items-center gap-3 text-sm">
+                <img
+                  src={q.image.src}
+                  alt={q.image.alt}
+                  className="w-12 h-12 rounded-full object-cover"
+                />
+                <span>
+                  <span className="font-medium">{q.author}</span>
+                  <span className="text-ink/60"> · {q.role}</span>
+                </span>
               </figcaption>
             </figure>
           ))}

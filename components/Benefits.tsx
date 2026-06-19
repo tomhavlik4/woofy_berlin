@@ -7,7 +7,7 @@ export function Benefits() {
         <h2 className="text-3xl md:text-4xl font-semibold mb-12">
           {benefits.heading}
         </h2>
-        <ul className="grid md:grid-cols-3 gap-8">
+        <ul className="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
           {benefits.items.map((b, i) => (
             <li key={i}>
               <h3 className="font-semibold text-lg">{b.title}</h3>
