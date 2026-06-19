@@ -27,7 +27,7 @@ export default function Home() {
         <img
           src="/woofylogo.png"
           alt={business.name}
-          className="h-16 w-auto mx-auto mb-4"
+          className="h-56 w-auto mx-auto mb-4"
         />
         © {new Date().getFullYear()} {business.name} · Made with Claude Code in Berlin
       </footer>

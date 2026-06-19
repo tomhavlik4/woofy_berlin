@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-paper text-ink;
+  @apply bg-background text-ink;
 }
